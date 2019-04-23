@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Browse Video File</string>
+
+    <string name="external_storage_permission_to_store_videos">Write External Storage permission allows us to do store Videos. Please allow this permission in App Settings.</string>
+    <string name="no_file_explorer">There are no file explorer clients installed.</string>
+    <string name="select_any_video_file">Please select any video file like MP4, 3GP or AVI. OR Please select video from File Manager!</string>
+    <string name="video_is_not_available">Video is not available at storage location!</string>
+
+</resources>
