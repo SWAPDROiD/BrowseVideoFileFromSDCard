@@ -1,14 +1,14 @@
-## Browse Video File From SDCard
+## Browse Video File From SDCard :
 You can use this project to Browse Video File from SDCard, USB, Internal and External Storage.
 This project is in Kotlin.
 
-##### You can select video audio or any kind of files from anywhere if you are facing problems like from below path
+##### You can select video audio or any kind of files from anywhere if you are facing problems like from below path :
 /document/video:27948 <br>
 /document/C26B-6A27:ACTION_CREATORS_Full_HD.mp4
 
 By using this sample code you can select any file from anywhere like USB/SDCard/Gallery/Documents etc except GoogleDrive and Dropbox etc.
 
-### For picking multiple videos
+### For picking multiple videos :
 ```
 private fun pickVideo() {
         try {
