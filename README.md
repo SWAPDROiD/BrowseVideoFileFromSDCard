@@ -8,6 +8,24 @@ This project is in Kotlin.
 
 By using this sample code you can select any file from anywhere like USB/SDCard/Gallery/Documents etc except GoogleDrive and Dropbox etc.
 
+##### For picking multiple videos
+```
+private fun pickVideo() {
+        try {
+            val intent = Intent(Intent.ACTION_GET_CONTENT)
+            intent.addCategory(Intent.CATEGORY_OPENABLE)
+            intent.type = "*/*"
+            val mimetypes = arrayOf("video/*")
+            intent.putExtra(Intent.EXTRA_MIME_TYPES, mimetypes)
+            intent.putExtra(Intent.EXTRA_ALLOW_MULTIPLE, true)
+            startActivityForResult(intent, BROWSE_VIDEO_REQUEST)
+        } catch (e: Exception) {
+            e.printStackTrace()
+            // No file explorer available
+        }
+    }
+```
+
 ### Output :
 
 <p align="center">
