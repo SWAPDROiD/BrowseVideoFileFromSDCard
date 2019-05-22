@@ -8,7 +8,7 @@ This project is in Kotlin.
 
 By using this sample code you can select any file from anywhere like USB/SDCard/Gallery/Documents etc except GoogleDrive and Dropbox etc.
 
-##### For picking multiple videos
+### For picking multiple videos
 ```
 private fun pickVideo() {
         try {
